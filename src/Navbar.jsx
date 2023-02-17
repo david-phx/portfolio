@@ -51,7 +51,7 @@ function Navbar() {
   }
 
   return (
-    <nav className="flex items-center justify-between bg-white border border-gray-100 dark:bg-gray-800 dark:border-gray-700 rounded-md shadow px-7 py-4">
+    <nav className="sticky lg:static top-0 z-40 flex items-center justify-between bg-white border border-gray-100 dark:bg-gray-800 dark:border-gray-700 rounded-md shadow px-7 py-4">
       <ul className="flex space-x-7 font-medium">
         {navbarLinksList}
       </ul>

@@ -85,11 +85,11 @@ function Skills() {
   return (
     <div className="p-5 rounded-md shadow overflow-hidden h-max bg-white border border-gray-100 dark:bg-gray-800 dark:border-gray-700">
       <h2 className="text-xl font-semibold">Skills</h2>
-      <ul className="flex flex-wrap gap-2 mt-4">
+      <ul className="flex flex-wrap gap-1.5 lg:gap-2 mt-4">
         {skills.map(skill => (
           <li
             key={skill}
-            className="text-xs font-normal rounded-md px-3 py-1 text-sky-800 bg-sky-100 dark:text-sky-100 dark:bg-sky-900"
+            className="w-max whitespace-nowrap shrink-0 text-sm font-normal rounded-md px-2 lg:px-3 py-1 text-sky-800 bg-sky-100 dark:text-sky-100 dark:bg-sky-900"
           >
             {skill}
           </li>
