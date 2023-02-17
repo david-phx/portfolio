@@ -1,7 +1,11 @@
+const resume = {
+  summary: "Resume",
+}
+
 function Resume() {
   return (
     <>
-      Resume
+      {resume.summary}
     </>
   );
 }
