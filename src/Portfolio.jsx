@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import PortfolioCard from './PortfolioCard'
 import Timeline from "./Timeline"
 
@@ -10,11 +11,11 @@ const portfolioProjects = [
     tech: ["Python", "Django", "JavaScript", "HTML", "CSS", "Bootstrap"],
     links: [
       {
-        title: "demo",
+        title: "Demo",
         url: "https://travel-tracker.asatrian.com/"
       },
       {
-        title: "source code",
+        title: "Source Code",
         url: "https://github.com/david-phx/travel-tracker"
       }
     ]
@@ -64,6 +65,10 @@ const portfolioTimeline = portfolioProjects.map(project => (
 ));
 
 function Portfolio() {
+  useEffect(() => {
+    document.title = "David Asatrian - Portfolio";
+  }, []);
+
   return (
     <>
       <p className="mb-10">These are some of the projects I've created for myself, friends, and clients in over 20 years of web development as a

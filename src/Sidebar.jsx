@@ -26,7 +26,7 @@ const skills = [
 
 function Sidebar() {
   return (
-    <div className="space-y-5">
+    <div className="space-y-1 lg:space-y-5">
       <Profile />
       <Skills />
     </div>

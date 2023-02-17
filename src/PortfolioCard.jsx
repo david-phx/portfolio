@@ -1,6 +1,6 @@
 function PortfolioCard({ children }) {
   return (
-    <div className="border rounded-md shadowbg-white border-gray-200 dark:bg-gray-800 dark:border-gray-700">
+    <div className="border rounded-md bg-white border-gray-200 dark:bg-gray-800 dark:border-gray-700">
       {children}
     </div>
   )
