@@ -8,7 +8,7 @@ function PortfolioCard({ children }) {
 
 function Screenshot({ screenshot }) {
   return (
-    <img className="rounded-t-md dark:saturate-50 dark:brightness-95" src={screenshot} alt="" />
+    <img className="rounded-t-md dark:saturate-50 dark:brightness-95" src={`/images/screenshots/${screenshot}`} alt="" />
   )
 }
 

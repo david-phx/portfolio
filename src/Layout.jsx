@@ -10,7 +10,7 @@ function Layout() {
       </div>
       <div className="lg:col-span-2 space-y-1 lg:space-y-4">
         <Navbar />
-        <div className="block bg-white border border-gray-200 dark:bg-gray-800 dark:border-gray-700 rounded-md shadow px-7 py-7">
+        <div className="block bg-white border border-gray-200 dark:bg-gray-800 dark:border-gray-700 rounded-md shadow px-7 pt-7 pb-3" id="scrollto">
           <Outlet />
         </div>
       </div>

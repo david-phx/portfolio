@@ -6,7 +6,7 @@ function Contact() {
   }, []);
 
   return (
-    <>
+    <div className="mb-5">
       <ContactHeader>Email</ContactHeader>
 
       <ContactLink
@@ -85,13 +85,13 @@ function Contact() {
         url="https://www.facebook.com/david.asatrian"
         title="Facebook"
       />
-    </>
+    </div>
   );
 }
 
 function ContactHeader({ children }) {
   return (
-    <h3 className="text-xl font-bold text-gray-600 dark:text-gray-300 first:mt-0 mt-10 mb-5">
+    <h3 className="first:mt-0 mt-10 mb-5 text-xl font-bold border-b text-gray-600 border-gray-300 dark:text-gray-300 dark:border-gray-600">
       {children}
     </h3>
   )
@@ -99,7 +99,7 @@ function ContactHeader({ children }) {
 
 function ContactLink(props) {
   return (
-    <div className="flex flex-row items-center mb-5">
+    <div className="flex flex-row items-center mb-5 last:mb-1">
       <div className="flex items-center pr-5 text-gray-400 dark:text-gray-500">
         {props.icon}
       </div>
