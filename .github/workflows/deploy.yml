@@ -1,7 +1,7 @@
-name: Deploy Vite/React website to GitHub Pages
+name: Deploy to GitHub Pages
 
 on:
-  # Runs on pushes to "master" branch
+  # Runs on pushes and pull requests to "master" branch
   push:
     branches: [ master ]
   pull_request:
@@ -41,27 +41,6 @@ jobs:
       - name: Build project
         run: npm run build
 
-      - name: Upload production puild
-        uses: actions/upload-artifact@v3
-        with:
-          name: production-build
-          path: ./dist
-  
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-
-    steps:
-      - name: Download production build
-        uses: actions/download-artifact@v3
-        with:
-          name: production-build
-          path: ./dist
-
       - name: Setup Pages
         uses: actions/configure-pages@v3
 
@@ -70,6 +49,16 @@ jobs:
         with:
           path: ./dist
 
+  deploy:
+    name: Deploy
+    needs: build
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
