@@ -292,7 +292,7 @@ function Certificates() {
           key={certification.issuer}
           className="mb-5 flex flex-row"
         >
-          <img src={`/images/logos/${certification.logo}`} className="h-max mr-3 rounded-md dark:saturate-50 dark:brightness-90" />
+          <img src={`images/logos/${certification.logo}`} className="h-max mr-3 rounded-md dark:saturate-50 dark:brightness-90" />
           <div>
             <div className="font-bold -mt-1">{certification.issuer}</div>
             {certification.certs.map(cert => (
@@ -335,7 +335,7 @@ function Education() {
 function ResumeCard(props) {
   return (
     <div className="flex flex-row">
-      <img src={`/images/logos/${props.logo}`} className="h-max mr-2 rounded-md dark:saturate-50 dark:brightness-90" />
+      <img src={`images/logos/${props.logo}`} className="h-max mr-2 rounded-md dark:saturate-50 dark:brightness-90" />
       <div className="w-full px-1">
         <div className="flex flex-row justify-between content-start text-gray-500 dark:text-gray-400">
           <div className="font-semibold grow">
