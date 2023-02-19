@@ -1,6 +1,7 @@
 const skills = [
   "JavaScript",
   "ECMAScript",
+  "TypeScript",
   "React",
   "Node.js",
   "Express",
