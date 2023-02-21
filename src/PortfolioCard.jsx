@@ -30,9 +30,9 @@ function Title({ children }) {
 
 function Description({ children }) {
   return (
-    <p className="mb-5 font-normal text-gray-600 dark:text-gray-400">
+    <div className="mb-5 font-normal text-gray-600 dark:text-gray-400">
       {children}
-    </p>
+    </div>
   )
 }
 
@@ -52,7 +52,7 @@ function LinkButton({ title, url }) {
     <a
       href={url}
       target="_blank"
-      className="border rounded-md font-medium text-sm text-center inline-flex items-center px-3 py-1 mr-2 text-gray-600 border-gray-200 hover:text-gray-800 hover:bg-gray-100 hover:border-gray-300 dark:text-gray-400 dark:hover:text-gray-200 dark:hover:bg-gray-700 dark:border-gray-600 dark:hover:border-gray-500"
+      className="border rounded-md font-medium text-sm text-center inline-flex items-center px-3 py-1 mr-2 my-1 text-gray-600 border-gray-200 hover:text-gray-800 hover:bg-gray-100 hover:border-gray-300 dark:text-gray-400 dark:hover:text-gray-200 dark:hover:bg-gray-700 dark:border-gray-600 dark:hover:border-gray-500"
     >
       {title}
       <svg className="w-3 h-3 ml-2 -mr-1" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" aria-hidden="true">

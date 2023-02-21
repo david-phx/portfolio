@@ -1,30 +1,4 @@
-const skills = [
-  "JavaScript",
-  "ECMAScript",
-  "TypeScript",
-  "React",
-  "Node.js",
-  "Express",
-  "jQuery",
-  "Python",
-  "Django",
-  "Java",
-  "PHP",
-  "WordPress",
-  "HTML",
-  "HTML5",
-  "CSS",
-  "Tailwind CSS",
-  "Bootstrap",
-  "SQL",
-  "MySQL",
-  "SQLite",
-  "Git",
-  "GitHub",
-  "CI/CD",
-  "Agile",
-  "Scrum"
-];
+import skills from './skills.json'
 
 function Sidebar() {
   return (
