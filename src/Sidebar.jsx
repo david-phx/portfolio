@@ -21,6 +21,7 @@ const skills = [
   "SQLite",
   "Git",
   "GitHub",
+  "CI/CD",
   "Agile",
   "Scrum"
 ];

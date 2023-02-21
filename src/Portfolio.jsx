@@ -8,7 +8,7 @@ const portfolioProjects = [
     time: "2023",
     screenshot: "portfolio.png",
     description: "This website. Isn't recursion beautiful?",
-    tech: ["React", "JavaScript", "Vite", "HTML", "CSS", "Tailwind CSS"],
+    tech: ["React", "JavaScript", "Vite", "HTML", "CSS", "Tailwind CSS", "CI/CD", "GitHub Actions"],
     links: [
       {
         title: "Source Code",
@@ -38,7 +38,7 @@ const portfolioProjects = [
     time: "2022",
     screenshot: "sorting-visualizer.png",
     description: "My final project for Harvard CS50's \"Introduction to Computer Science\" course. A visualizer for sorting algorithms including select, bubble, and merge, using only vanilla JavaScript, HTML, and Bootstrap CSS framework.",
-    tech: ["JavaScript", "Bootstrap"],
+    tech: ["JavaScript", "HTML", "CSS", "Bootstrap"],
     links: [
       {
         title: "Demo",
@@ -55,7 +55,7 @@ const portfolioProjects = [
     time: "2022",
     screenshot: "uno-scoresheet.png",
     description: "We like to play UNO and DOS, and after we lost our paper scoresheet once again, this web app was the solution for our problem I came up with.<br /><br />Built with JavaScript, HTML, and CSS (Bootstrap), has responsive design so is perfectly usable on phones and tablets, and saves player names and scores in browser's local storage.<br /><br />Feel free to use if you're into UNO/DOS too. ;)",
-    tech: ["JavaScript", "Bootstrap", "HTML", "CSS"],
+    tech: ["JavaScript", "HTML", "CSS", "Bootstrap"],
     links: [
       {
         title: "Scoresheet",
@@ -72,7 +72,7 @@ const portfolioProjects = [
     time: "2022",
     screenshot: "e2services.png",
     description: "A clean responsive landing page for a consulting agency.",
-    tech: ["JavaScript", "Bootstrap", "HTML", "CSS"],
+    tech: ["JavaScript", "HTML", "CSS", "Bootstrap"],
     links: [
       {
         title: "e2services.us",
@@ -95,7 +95,7 @@ const portfolioProjects = [
   },
   {
     title: "Personal Website & Blog",
-    time: "1997-2016",
+    time: "1998-2016",
     screenshot: "dzhan-ru.png",
     description: "A personal website was the first thing I created when I discovered this wonderful thing called \"The Internet\" in 1998. It was essentially something like a modern social media profile with photos, interests, links, and whatnot, but five years before MySpace and six years before Facebook.<br /><br />    And boy it was horrible! Background images, 3D effects, animated gifs, Comic Sans, a midi song playing when you opened the website - the whole nine yards. Buy hey, these were the late 90s, that's how the Internet looked like back then.<br /><br />After many years, iterations, ideas, domains, hosters, and hours spent coding and writing, it ended up as a somewhat boring looking WordPress blog, until it was completely retired around 2016.",
     tech: ["JavaScript", "PHP", "WordPress", "HTML", "CSS"],
@@ -162,7 +162,7 @@ const portfolioProjects = [
     time: "2002",
     screenshot: "the-bastards.png",
     description: "This was my first \"client\" project - a website for a rock band my friends were in. And by \"client\" I mean a website I made for someone else, not \"I got paid to make it\" unless you count free show access as a form of payment. Proper clients came later. On second thought, free tickets are indeed a form of payment, so I did get paid for this one.<br /><br />The website went through a few iterations, the first few being completely abysmal. This one was more or less OK. The band eventually switched to social media to interact with fans and the website was retired.",
-    tech: ["HTML", "CSS"],
+    tech: ["HTML", "CSS", "JavaScript"],
     links: [
       {
         title: "Archive Snapshot",
@@ -195,7 +195,7 @@ const portfolioProjects = [
         url: "http://www.corrida.ru/"
       },
       {
-        title: "Archive Snapshot",
+        title: "Archive Snapshot from Y2K",
         url: "https://web.archive.org/web/20000310100550/http://corrida.hobby.ru/news.html"
       }
     ]
