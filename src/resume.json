@@ -2,36 +2,16 @@
   "summary": "Self-motivated full stack web developer with over 10 years of experience as a freelancer. Skilled in various programming languages including JavaScript, Python, Java, PHP, Perl, HTML, and CSS, with experience in building personal projects and client websites using a variety of frameworks and libraries.",
   "skills": [
     {
-      "title": "JavaScript",
-      "description": "Proficient in React, Angular, Node.js, Express, and jQuery. Built multiple personal projects and client websites using JavaScript. Developed JavaScript web apps including travel tracker, sorting algorithms visualizer, and card game scoresheet."
+      "title": "Programming Languages",
+      "description": "Proficient in JavaScript, Python, SQL, HTML, and CSS. Working knowledge of Java, PHP, and Perl."
     },
     {
-      "title": "Python",
-      "description": "Proficient in Django and Flask frameworks. Built various web apps with a Python backend."
+      "title": "Libraries and Frameworks",
+      "description": "Advanced knowledge and experience building projects using React, Node.js, Express, and jQuery JavaScript libraries/frameworks, and Django Python web framework. Proficient in Bootstrap and Tailwind CSS frameworks. Experience building websites using WordPress and Drupal content management systems, as well as building custom plugins and themes using PHP."
     },
     {
-      "title": "PHP",
-      "description": "Experienced in creating PHP-based websites, using various content management systems, including WordPress, Drupal, and Joomla, e-commerce systems, and forum software. Developed custom WordPress themes and plugins using PHP."
-    },
-    {
-      "title": "Perl",
-      "description": "Developed Perl CGI scripts including online forum engine."
-    },
-    {
-      "title": "SQL",
-      "description": "Experienced in MySQL and SQLite."
-    },
-    {
-      "title": "Java",
-      "description": "(Spring Boot)"
-    },
-    {
-      "title": "HTML/CSS",
-      "description": "(SASS, Bootstrap)"
-    },
-    {
-      "title": "Git/GitHub",
-      "description": ""
+      "title": "Tools and Methodologies",
+      "description": "Working knowledge of Git/GitHub version control system, CI/CD and Agile/Scrum practices and methodologies."
     }
   ],
   "experience": [
