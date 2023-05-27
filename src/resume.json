@@ -1,5 +1,5 @@
 {
-  "summary": "Self-motivated full stack web developer with over 10 years of experience as a freelancer. Skilled in various programming languages including JavaScript, Python, Java, PHP, Perl, HTML, and CSS, with experience in building personal projects and client websites using a variety of frameworks and libraries.",
+  "summary": "Full stack software developer with over 10 years of experience. Skilled in various programming languages including JavaScript, Python, Java, PHP, Perl, HTML, and CSS, with experience in building personal projects and client websites using a variety of frameworks and libraries.",
   "skills": [
     {
       "title": "Programming Languages",
@@ -15,6 +15,17 @@
     }
   ],
   "experience": [
+    {
+      "time": "03/2023 - present",
+      "company": "Handwrytten",
+      "logo": "handwrytten.png",
+      "location": "Tempe, Arizona",
+      "title": "Software Developer",
+      "employment": "Full Time",
+      "description": [
+        "Developing proprietary software for handwriting robots, internal tools, APIs, and automations."
+      ]
+    },
     {
       "time": "05/2022 - present",
       "company": "E2 Services",
