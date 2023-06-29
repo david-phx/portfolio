@@ -17,7 +17,7 @@ function Profile() {
         <img className="dark:saturate-50 dark:brightness-90 w-20 h-20 border border-white dark:border-gray-600 rounded-md shadow absolute -top-10 left-5" src="images/profile.jpg" />
         <div className="text-xs font-medium border rounded-xl absolute top-4 right-4 px-3 py-1 text-gray-100 bg-sky-800
         dark:text-gray-200 dark:bg-sky-900 dark:border-gray-400">
-          OPEN TO WORK
+          BUSY
         </div>
         <div className="text-2xl font-semibold mb-1">David Asatrian</div>
         <div className="text-gray-500 dark:text-gray-400 mb-5">Web Developer</div>

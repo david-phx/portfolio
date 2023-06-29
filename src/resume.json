@@ -153,6 +153,42 @@
         {
           "name": "Scrum: Advanced",
           "link": "https://www.linkedin.com/learning/certificates/1cb9087dad90aa10b78eeb030dc09af151a904a8e89bde6952c6a1bec25158ff"
+        },
+        {
+          "name": "Linux",
+          "link": "https://www.linkedin.com/learning/certificates/a7e91f2944c94d33228993b9f23024f6b068b517b12208e2628d51d70564063f"
+        },
+        {
+          "name": "Linux Command Line",
+          "link": "https://www.linkedin.com/learning/certificates/7e37df86049584b792e8b9ef85a07e1a4f755bb5607c029cbc7b92c4c1761a1e"
+        },
+        {
+          "name": "Docker for Developers",
+          "link": "https://www.linkedin.com/learning/certificates/6932d25c0249289a6e63247947e0eba68538dc22c6aabe194dabde357452a589"
+        },
+        {
+          "name": "AWS Lambda",
+          "link": "https://www.linkedin.com/learning/certificates/dac59d51a234f9ae44331c0af8ac32bc9a8119e93888bdc13e4a11b4de5921e4"
+        },
+        {
+          "name": "Raspberry Pi",
+          "link": "https://www.linkedin.com/learning/certificates/83f3803ea1e415c1c344fd6ce8e7cce7ba3842eb39c3e5599f34f463d3fa376a"
+        },
+        {
+          "name": "GitHub Copilot",
+          "link": "https://www.linkedin.com/learning/certificates/9e2e982f1854addcaf91f632fd7ffb25f1c6a60604a22079ea0e238ef31362c3"
+        },
+        {
+          "name": "Angular",
+          "link": "https://www.linkedin.com/learning/certificates/4a6065fe12cdc1ab9f4d737e36b4cf9016131b4b27470f697b74e6be4594acc0"
+        },
+        {
+          "name": "React.js",
+          "link": "https://www.linkedin.com/learning/certificates/fde13faed8109e7986616594a03799dc501d8520f8c82d4ad56c344b235315e8"
+        },
+        {
+          "name": "TypeScript",
+          "link": "https://www.linkedin.com/learning/certificates/5b5d3bd10948c266f072a050815409703b69d80f8f1714cbbb6f5033c3fb9551"
         }
       ]
     },
@@ -167,6 +203,10 @@
         {
           "name": "JavaScript Algorithms and Data Structures",
           "link": "https://freecodecamp.org/certification/david-phx/javascript-algorithms-and-data-structures"
+        },
+        {
+          "name": "Front End Development Libraries",
+          "link": "https://www.freecodecamp.org/certification/david-phx/front-end-development-libraries"
         }
       ]
     }
