@@ -1,17 +1,17 @@
 {
-  "summary": "Full stack software developer with over 10 years of experience. Skilled in various programming languages including JavaScript, Python, Java, PHP, Perl, HTML, and CSS, with experience in building personal projects and client websites using a variety of frameworks and libraries.",
+  "summary": "Full stack software developer with over 10 years of experience. Skilled in various programming languages including Python, JavaScript, TypeScript, Java, PHP, Perl, HTML, and CSS, with experience in building personal projects and client websites using a variety of frameworks and libraries.",
   "skills": [
     {
       "title": "Programming Languages",
-      "description": "Proficient in JavaScript, Python, SQL, HTML, and CSS. Working knowledge of Java, PHP, and Perl."
+      "description": "Proficient in Python, JavaScript, TypeScript, SQL, HTML, and CSS. Working knowledge of Java, PHP, and Perl."
     },
     {
       "title": "Libraries and Frameworks",
-      "description": "Advanced knowledge and experience building projects using React, Node.js, Express, and jQuery JavaScript libraries/frameworks, and Django Python web framework. Proficient in Bootstrap and Tailwind CSS frameworks. Experience building websites using WordPress and Drupal content management systems, as well as building custom plugins and themes using PHP."
+      "description": "Advanced knowledge and experience building projects using Angular, React, Node.js, Express, and jQuery JavaScript libraries/frameworks, and Django and Flask Python web frameworks. Proficient in Bootstrap and Tailwind CSS frameworks. Experience building websites using WordPress and Drupal content management systems, as well as building custom plugins and themes using PHP."
     },
     {
       "title": "Tools and Methodologies",
-      "description": "Working knowledge of Git/GitHub version control system, CI/CD and Agile/Scrum practices and methodologies."
+      "description": "Working knowledge of Amazon Web Services, IBM Cloud, Git/GitHub version control system, CI/CD and Agile/Scrum practices and methodologies."
     }
   ],
   "experience": [
@@ -165,6 +165,10 @@
         {
           "name": "Docker for Developers",
           "link": "https://www.linkedin.com/learning/certificates/6932d25c0249289a6e63247947e0eba68538dc22c6aabe194dabde357452a589"
+        },
+        {
+          "name": "AWS for Developers",
+          "link": "https://www.linkedin.com/learning/certificates/d31de0cb7a72f2c30430cc8ef425c60d5835215ddbced34cf509c216472d5008"
         },
         {
           "name": "AWS Lambda",
